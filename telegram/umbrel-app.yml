@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: my-tool-telegram
 name: Telegram
-tagline: download
+tagline: chat
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png
 category: Chat
 version: "1.0.0"
