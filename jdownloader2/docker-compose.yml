@@ -7,4 +7,4 @@ services:
     volumes:
       - "${APP_DATA_DIR}/data/config:/config:rw"
       - "/mnt/root/media/hd-1-tera:/hd-1-tera"
-    container_name: nosrednawall-jdownloader2_server_1
+    container_name: nosrednawall-jdownloader2
