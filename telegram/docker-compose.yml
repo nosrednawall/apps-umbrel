@@ -1,0 +1,9 @@
+version: '3'
+services:
+  jdownloader-2:
+    image: kasmweb/telegram
+    ports:
+      - "6901"
+    volumes:
+      - "${APP_DATA_DIR}/data/config:/config:rw"
+      - "/mnt/root/media/hd-1-tera:/hd-1-tera"
