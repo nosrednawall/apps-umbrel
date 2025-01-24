@@ -1,13 +1,10 @@
-version: '3.7'
+version: '3'
 services:
-  server:
+  jdownloader-2:
     image: jlesage/jdownloader-2
     ports:
-		- "5800:5800"
-    user: '1000:1000'
-    restart: on-failure
-    init: true
+      - "5800:5800"
     volumes:
-		- "${APP_DATA_DIR}/docker/appdata/jdownloader-2:/config:rw"
-		- /mnt/root/media/hd-1-tera:/data/hd-1-tera
+      - "${APP_DATA_DIR}/data/config:/config:rw"
+      - "/mnt/root/media/hd-1-tera:/hd-1-tera"
     container_name: nosrednawall-jdownloader2_server_1
