@@ -2,7 +2,7 @@ version: '3'
 services:
   app_proxy:
     environment:
-      APP_HOST: jdownloader_server_1
+      APP_HOST: my-tool-jdownloader_server_1
       APP_PORT: 5800
     container_name: jdownloader_app_proxy_1
   Server:
