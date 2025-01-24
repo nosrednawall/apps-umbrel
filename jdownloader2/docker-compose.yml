@@ -1,10 +1,5 @@
 version: '3.7'
 services:
-  app_proxy:
-    environment:
-      APP_HOST: nosrednawall-jdownloader2_1
-      APP_PORT: 5800
-    container_name: nosrednawall-jdownloader2_app_proxy_1
   server:
     image: jlesage/jdownloader-2
     ports:
