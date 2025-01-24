@@ -7,6 +7,8 @@ services:
     container_name: nosrednawall-jdownloader2_app_proxy_1
   server:
     image: jlesage/jdownloader-2
+    ports:
+		- "5800:5800"
     user: '1000:1000'
     restart: on-failure
     init: true
