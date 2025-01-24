@@ -7,10 +7,13 @@ services:
     container_name: departure-jdownloader2_app_proxy_1
   server:
     image: jlesage/jdownloader-2
-    user: '1000:1000'
     restart: on-failure
-    init: true
+    environment:
+     - PUID=1000
+     - PGID=1000
     volumes:
      - "${APP_DATA_DIR}/data/config:/config:rw"
      - "/mnt/root/media/hd-1-tera:/data/hd-1-tera"
+    ports:
+     - 5800:5800
     container_name: departure-jdownloader2_server_1
