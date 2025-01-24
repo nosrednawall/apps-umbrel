@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: tool-telegram
+id: my-tool-telegram
 name: Telegram
 tagline: download
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png
@@ -24,5 +24,5 @@ releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
 path: ""
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: "kasm_user"
+defaultPassword: "password"
