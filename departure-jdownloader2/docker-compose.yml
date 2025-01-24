@@ -11,6 +11,6 @@ services:
     restart: on-failure
     init: true
     volumes:
-- 	  - "${APP_DATA_DIR}/data/config:/config:rw"
-      - /mnt/root/media/hd-1-tera:/data/hd-1-tera
+ 	  - "${APP_DATA_DIR}/data/config:/config:rw"
+ 	  - /mnt/root/media/hd-1-tera:/data/hd-1-tera
     container_name: departure-jdownloader2_server_1
