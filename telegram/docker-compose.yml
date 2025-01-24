@@ -1,9 +1,20 @@
 version: '3'
 services:
-  jdownloader-2:
+  app_proxy:
+    environment:
+      APP_HOST: telegram_server_1
+      APP_PORT: 6901
+    container_name: telegram_app_proxy_1
+  Server:
     image: kasmweb/telegram
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
     ports:
-      - "6901"
+      - "6901:6901"
     volumes:
       - "${APP_DATA_DIR}/data/config:/config:rw"
       - "/mnt/root/media/hd-1-tera:/hd-1-tera"
+    shm_size: 1gb
+    container_name: telegram_server_1
