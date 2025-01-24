@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: jdownloader2
+name: JDownloader2
+tagline: download
+icon: https://jdownloader.org/_media/vote/trazo.png
+category: Downloader
+version: "1.0.0"
+port: 5800
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
+
+developer: JDowloader
+website: https://jdownloader.org/home/index
+submitter: nosrednawall
+submission: https://github.com/nosrednawall/my-custom-apps-umbrel/jdownloader2
+repo: https://github.com/nosrednawall/my-custom-apps-umbrel
+support: https://github.com/nosrednawall/my-custom-apps-umbrel/issues
+gallery:
+  - https://imgur.com/lwEYV3X
+  - https://jdownloader.org/_media/screenshots/ss-2009.08.19-20.40.30.png?w=600&h=354
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
