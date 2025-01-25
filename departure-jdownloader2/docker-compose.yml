@@ -1,15 +1,11 @@
+version: '3'
 services:
-  app_proxy:
-    environment:
-      APP_HOST: departure-jdownloader2_1
-      APP_PORT: 5800
-    container_name: departure-jdownloader2_app_proxy_1
   server:
     image: jlesage/jdownloader-2
     hostname: ${DEVICE_HOSTNAME}
+    ports:
+     - 5800:5800
     volumes:
      - "${APP_DATA_DIR}/data/config:/config:rw"
      - "/mnt/root/media/hd-1-tera:/data/hd-1-tera"
-    ports:
-     - 5800:5800
     container_name: departure-jdownloader2_server_1
