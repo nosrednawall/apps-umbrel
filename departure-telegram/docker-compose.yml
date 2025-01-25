@@ -1,0 +1,14 @@
+version: '3'
+services:
+  server:
+    image: xorilog/telegram
+    hostname: ${DEVICE_HOSTNAME}
+    ports:
+     - 6901:6901
+    volumes:
+     - "${APP_DATA_DIR}/data/config:/config:rw"
+     - "/mnt/root/media/hd-1-tera:/data/hd-1-tera"
+    shm_size: 512m
+    container_name: departure-telegram_server_1
+
+
