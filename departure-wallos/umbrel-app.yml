@@ -2,7 +2,7 @@ manifestVersion: 1
 id: departure-wallos
 name: WallOs
 tagline: personal
-icon: https://wallosapp.com/images/logo/walloswhite.webp
+icon: https://github.com/ellite/Wallos/blob/main/images/icon/android-chrome-512x512.png?raw=true
 category: Personal
 version: "1.0.0"
 port: 8282
