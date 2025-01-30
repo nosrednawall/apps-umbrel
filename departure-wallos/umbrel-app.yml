@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: departure-wallos
+name: WallOs
+tagline: personal
+icon: https://wallosapp.com/images/logo/walloswhite.webp
+category: Personal
+version: "1.0.0"
+port: 8282
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
+
+developer: wallos
+website: https://wallosapp.com/
+submitter: nosrednawall
+submission: https://github.com/nosrednawall/departure-umbrel/departure-wallos
+repo: https://github.com/nosrednawall/departure-umbrel
+support: https://github.com/nosrednawall/departure-umbrel/issues
+gallery:
+  - https://github.com/ellite/Wallos/raw/main/screenshots/wallos-dashboard-light.png
+  - https://github.com/ellite/Wallos/raw/main/screenshots/wallos-dashboard-dark.png
+  - https://github.com/ellite/Wallos/raw/main/screenshots/wallos-stats.png
+  - https://github.com/ellite/Wallos/raw/main/screenshots/wallos-calendar.png
+  - https://github.com/ellite/Wallos/raw/main/screenshots/wallos-form.png
+  - https://github.com/ellite/Wallos/raw/main/screenshots/wallos-dashboard-mobile-light.png
+  - https://github.com/ellite/Wallos/raw/main/screenshots/wallos-dashboard-mobile-dark.png
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

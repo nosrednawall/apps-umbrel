@@ -1,0 +1,14 @@
+version: '3'
+services:
+  server:
+    container_name: departure-wallos_server_1
+    image: bellamy/wallos:latest
+    ports:
+      - "8282:80/tcp"
+    environment:
+      TZ: 'America/Sao_Paulo'
+    # Volumes store your data between container upgrades
+    volumes:
+      - './db:/var/www/html/db'
+      - './logos:/var/www/html/images/uploads/logos'
+    restart: unless-stopped
